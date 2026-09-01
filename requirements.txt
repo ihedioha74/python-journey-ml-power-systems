@@ -1,0 +1,19 @@
+# python-journey-ml-power-systems — Weeks 1-3 (classical/interpretable ML)
+# Pinned to Python 3.13 (Anaconda) — the only Python actually available on
+# this machine; python-journey's orphaned .venv (Python 3.10) can no longer
+# be recreated since 3.10/3.11/3.12 aren't installed anymore.
+# ml01_baseline.py verified to produce identical output (65.14 MW / 25.86 MW
+# MAE) under this pandas/numpy version as under the older 3.10 environment.
+#
+# TensorFlow/Keras (Week 4, ML-16 onward) intentionally NOT included here yet
+# — it's a heavy install and unused until then. Add it when we get there.
+
+pandas==3.0.5
+numpy==2.5.1
+matplotlib==3.11.1
+
+scikit-learn==1.9.0
+xgboost==3.4.1
+lightgbm==4.7.0
+statsmodels==0.15.0
+joblib==1.6.0
