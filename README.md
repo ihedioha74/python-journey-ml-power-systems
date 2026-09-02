@@ -32,6 +32,7 @@ python generate_load_data.py
 | # | Topic | Script |
 |---|-------|--------|
 | ML-1 | What ML actually is — pure-pandas baseline | `ml01_baseline.py` |
+| ML-2 | Train/test discipline & metrics — chronological split, held-out baseline (27.18 MW MAE) | `ml02_train_test.py` |
 
 Session PDFs (concept writeup + full committed script as an appendix) are produced
 alongside this repo as the module progresses.
